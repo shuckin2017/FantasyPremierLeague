@@ -1,0 +1,36 @@
+@import "_setting";
+@import "_vars";
+//Сетка
+
+//Сброс стилей
+@import '../../node_modules/normalize.css/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital@1&family=Lato&family=Roboto:wght@400&display=swap');
+
+
+
+body {
+  font-family: $font-main;
+  font-size: 14px;
+}
+.wrapper {
+  background-color: $color-bg;
+}
+.container {
+  border-left: 1px solid $color-bg;
+  border-right: 1px solid $color-bg;
+  background-color: $color-white;
+  
+}
+h1 {
+  font-family: $font-heading;
+}
+
+.height {
+  min-height: 1000px;
+}
+
+
+
+@import "_elements";
+@import "_table";
+

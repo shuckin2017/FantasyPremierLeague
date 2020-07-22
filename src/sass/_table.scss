@@ -1,0 +1,45 @@
+.table-wrap {
+  margin: 1rem;
+}
+table.table-top {
+  font-family: $font-table;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+table.table-top tr {
+}
+table.table-top th, table.table-top td {
+  text-align: left;
+  width: 25%;
+  padding: 8px;
+  border: 1px solid $color-primary;
+}
+
+
+@media screen and (max-width: 600px) {
+	table.table-top tr{
+		display: block;
+	}
+	table.table-top tr{
+		margin-bottom: 30px;
+	}
+	table.table-top, table.table-top td{
+		display: block;
+    text-align: center;
+    width: 100%;
+	}
+}
+
+.table-top {
+  &__title {
+    font-size: 1.2rem;
+    
+    }
+  &__desc {
+    font-size: .8rem;
+    
+    }
+  } 
+
+  
